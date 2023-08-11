@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-sonarqube-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "scanner": "node ./config/sonar.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sonarqube-scanner": "^3.0.1"
+  }
+}
